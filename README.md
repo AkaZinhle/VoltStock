@@ -48,6 +48,8 @@ VoltStock is a professional full-stack inventory management system that integrat
 
 * **AI Orchestration**: Dify (Think-Act-Observe workflows).
 
+<img width="1118" height="495" alt="image" src="https://github.com/user-attachments/assets/4aaf5ef1-924c-4452-b231-5fb651af5139" />
+
 
 ### AI & Protocols
 
