@@ -19,8 +19,12 @@ VoltStock is a professional full-stack inventory management system that integrat
 * **Schema-Aware Reasoning**: Uses a dedicated MCP server to provide LLMs with direct, standardized access to the MongoDB database layer.
 
 <img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/d4f1fba4-bd79-49fa-ac4d-483ca091c2fa" />
+<img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/0ec94001-ff12-410f-b0f4-92657382b61d" />
 <img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/18a93a02-75a3-4f18-9f71-175688ee7504" />
-<img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/8b6fbacb-ec23-4f17-ba66-f3e84bc443bc" />
+<img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/33a3ccfc-16fc-4cdd-b872-d64dad8fdde6" />
+<img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/8b4175ee-cb62-465b-a85e-a08a971b6367" />
+<img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/db2dd8b3-50d8-49cb-a350-c5a89bbafdfd" />
+
 
 
 
