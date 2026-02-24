@@ -6,32 +6,20 @@ VoltStock is a professional full-stack inventory management system that integrat
 
 ## Key Features
 
-* 
-**AI Co-Pilot**: A natural language chat interface that allows users to query the inventory, troubleshoot discrepancies, and receive real-time alerts.
+* **AI Co-Pilot**: A natural language chat interface that allows users to query the inventory, troubleshoot discrepancies, and receive real-time alerts.
 
+* **Agentic Commerce**: Autonomous procurement capabilities using Google’s AP2 protocol, allowing the system to research and execute purchases via cryptographically signed mandates.
 
-* 
-**Agentic Commerce**: Autonomous procurement capabilities using Google’s AP2 protocol, allowing the system to research and execute purchases via cryptographically signed mandates.
+* **Real-time Dashboard**: A high-performance visualization suite for tracking key performance indicators (KPIs) such as Monthly Turnover Rate and Value Shipped.
 
+* **Intelligent Inventory Management**: Automated tracking of "Safety Stock" and "Reorder Points" to prevent stockouts and minimize excess inventory.
 
-* 
-**Real-time Dashboard**: A high-performance visualization suite for tracking key performance indicators (KPIs) such as Monthly Turnover Rate and Value Shipped.
+* **Automated Audit Trails**: An immutable "In-Out Log" system that records every inventory movement, ensuring a reliable "Source of Truth" for industrial resource management.
 
+* **Schema-Aware Reasoning**: Uses a dedicated MCP server to provide LLMs with direct, standardized access to the MongoDB database layer.
 
-* 
-**Intelligent Inventory Management**: Automated tracking of "Safety Stock" and "Reorder Points" to prevent stockouts and minimize excess inventory.
-
-
-* 
-**Automated Audit Trails**: An immutable "In-Out Log" system that records every inventory movement, ensuring a reliable "Source of Truth" for industrial resource management.
-
-
-* 
-**Schema-Aware Reasoning**: Uses a dedicated MCP server to provide LLMs with direct, standardized access to the MongoDB database layer.
-
-
-<img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/18a93a02-75a3-4f18-9f71-175688ee7504" />
 <img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/d4f1fba4-bd79-49fa-ac4d-483ca091c2fa" />
+<img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/18a93a02-75a3-4f18-9f71-175688ee7504" />
 <img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/8b6fbacb-ec23-4f17-ba66-f3e84bc443bc" />
 
 
@@ -42,47 +30,28 @@ VoltStock is a professional full-stack inventory management system that integrat
 
 ### Frontend
 
-* 
-**Framework**: React with TypeScript.
+* **Framework**: React with TypeScript.
 
+* **Styling**: Tailwind CSS and Radix UI.
 
-* 
-**Styling**: Tailwind CSS and Radix UI.
-
-
-* 
-**Icons**: Lucide React.
-
-
+* **Icons**: Lucide React.
 
 ### Backend
 
-* 
-**API Framework**: Python FastAPI.
+* **API Framework**: Python FastAPI.
 
+* **Database**: MongoDB Atlas.
 
-* 
-**Database**: MongoDB Atlas.
-
-
-* 
-**AI Orchestration**: Dify (Think-Act-Observe workflows).
-
+* **AI Orchestration**: Dify (Think-Act-Observe workflows).
 
 
 ### AI & Protocols
 
-* 
-**Protocols**: Model Context Protocol (MCP), Agent Payments Protocol (AP2).
+* **Protocols**: Model Context Protocol (MCP), Agent Payments Protocol (AP2).
 
+* **LLMs**: Support for high-tier providers including Gemini and Claude.
 
-* 
-**LLMs**: Support for high-tier providers including Gemini and Claude.
-
-
-* 
-**Inference**: Optimized via Server-Sent Events (SSE) for streaming responses.
-
+* **Inference**: Optimized via Server-Sent Events (SSE) for streaming responses.
 
 
 ---
@@ -91,26 +60,15 @@ VoltStock is a professional full-stack inventory management system that integrat
 
 VoltStock operates on a "Data-to-Agent" flow:
 
-1. 
-**Frontend**: The React application handles user interactions and displays real-time metrics.
+1. **Frontend**: The React application handles user interactions and displays real-time metrics.
 
+2. **Backend Services**: Python FastAPI acts as the bridge between the UI and data.
 
-2. 
-**Backend Services**: Python FastAPI acts as the bridge between the UI and data.
+3. **MCP Server**: Standardizes communication between the AI agents and the MongoDB database.
 
+4. **Agentic Layer**: The Dify orchestration framework manages complex multi-step reasoning cycles.
 
-3. 
-**MCP Server**: Standardizes communication between the AI agents and the MongoDB database.
-
-
-4. 
-**Agentic Layer**: The Dify orchestration framework manages complex multi-step reasoning cycles.
-
-
-5. 
-**Commerce Layer**: AP2 manages secure, autonomous procurement through verifiable intent mandates.
-
-
+5. **Commerce Layer**: AP2 manages secure, autonomous procurement through verifiable intent mandates.
 
 ---
 
@@ -120,18 +78,13 @@ VoltStock operates on a "Data-to-Agent" flow:
 
 * Python 3.10+.
 
-
 * Node.js and npm/yarn.
-
 
 * MongoDB Atlas Cluster.
 
-
 * Google Cloud Platform (GCP) account for AP2 integration.
 
-
 * API keys for LLM providers (Gemini or Claude).
-
 
 
 ### Installation
@@ -166,33 +119,20 @@ npm run dev
 4. **MCP & Dify Configuration**:
 * Deploy the MongoDB MCP server.
 
-
 * Import the provided Dify agentic workflow.
-
-
-
 
 
 ---
 
 ## Usage
 
-* 
-**Dashboard**: Monitor warehouse health through live-updated cards and charts.
+* **Dashboard**: Monitor warehouse health through live-updated cards and charts.
 
+* **Inventory View**: Perform manual CRUD operations or bulk item imports.
 
-* 
-**Inventory View**: Perform manual CRUD operations or bulk item imports.
+* **Co-Pilot**: Open the chat sidebar and use natural language commands like *"What items are currently below safety stock?"* or *"Initiate a purchase order for 50 units of SKU-123"*.
 
-
-* 
-**Co-Pilot**: Open the chat sidebar and use natural language commands like *"What items are currently below safety stock?"* or *"Initiate a purchase order for 50 units of SKU-123"*.
-
-
-* 
-**Shipping & Logs**: Track active orders and view the automated movement history for auditing.
-
-
+* **Shipping & Logs**: Track active orders and view the automated movement history for auditing.
 
 ---
 
