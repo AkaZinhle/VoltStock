@@ -22,7 +22,7 @@ VoltStock is a professional full-stack inventory management system that integrat
 <img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/08263b55-5483-4259-99a1-78b66aa62bba" />
 <img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/18a93a02-75a3-4f18-9f71-175688ee7504" />
 <img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/e6499ac3-799c-40d5-bd47-db1c76ce7ac3" />
-<img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/8b4175ee-cb62-465b-a85e-a08a971b6367" />
+<img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/cf5e1df8-94fd-47e3-a953-1d1e227ffdc6" />
 <img width="1872" height="909" alt="image" src="https://github.com/user-attachments/assets/db2dd8b3-50d8-49cb-a350-c5a89bbafdfd" />
 
 
