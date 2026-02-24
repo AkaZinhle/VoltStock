@@ -1,0 +1,25 @@
+# --- Core Backend ---
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# --- Database (Asynchronous MongoDB) ---
+motor>=3.3.0
+pymongo>=4.5.0
+
+# --- AI Orchestration & Protocols ---
+mcp>=0.1.0                # Model Context Protocol SDK [cite: 127]
+google-generativeai>=0.3.0 # For Gemini LLM integration [cite: 661]
+anthropic>=0.8.0           # For Claude LLM integration [cite: 661]
+httpx>=0.25.0             # Async HTTP client for Dify/SSE [cite: 135]
+
+# --- Agentic Commerce & Scraping ---
+beautifulsoup4>=4.12.0     # For autonomous procurement research [cite: 404]
+playwright>=1.40.0         # For handling dynamic content during research [cite: 407]
+cryptography>=41.0.0       # For AP2 cryptographically signed mandates [cite: 620]
+
+# --- Utilities ---
+sse-starlette>=1.6.0       # For Server-Sent Events (SSE) streaming [cite: 135]
+python-pptx>=0.6.21        # For programmatic document generation [cite: 426]
